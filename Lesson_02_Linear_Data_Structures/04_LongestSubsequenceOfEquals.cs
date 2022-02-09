@@ -21,6 +21,7 @@ namespace Lesson_02_Linear_Data_Structures
 #endif
 
             var numbers = ConsoleUtility.ReadSequenceOfElements<int>().ToList();
+
             var longestSubsequence = FindLongestSubsequence(numbers);
 
             PrintResult(numbers, longestSubsequence);
@@ -33,7 +34,7 @@ namespace Lesson_02_Linear_Data_Structures
                 throw new ArgumentException("Sequence collection cannot be null or empty.");
             }
 
-            T bestElement = sequence[0];
+            T bestElement = sequence[0]; 
             int bestOccurs = 1;
 
             T currentBestElement = sequence[0];

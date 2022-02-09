@@ -21,7 +21,7 @@ namespace Lesson_02_Linear_Data_Structures
 
             var numbers = ConsoleUtility.ReadSequenceOfElements<int>();
 
-            var sumOfNumbers = numbers.Where(a => a > 0).Sum();
+            var sumOfNumbers = numbers.Where(number => number > 0).Sum();
             var averageOfNumbers = numbers.Where(a => a > 0).Average();
 
             PrintResult(sumOfNumbers, averageOfNumbers);

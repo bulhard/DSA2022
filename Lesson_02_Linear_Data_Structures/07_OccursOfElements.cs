@@ -39,8 +39,10 @@ namespace Lesson_02_Linear_Data_Structures
                 {
                     dictionary[collection[i]]++;
                 }
-
-                dictionary[collection[i]] = 0;
+                else
+                {
+                    dictionary[collection[i]] = 1;
+                }
             }
 
             return dictionary;
