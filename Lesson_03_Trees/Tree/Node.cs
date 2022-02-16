@@ -20,17 +20,6 @@ namespace Lesson_03_Trees.Tree
         }
 
         /// <summary>
-        /// Creates a new instance of the Node class with given set of children.
-        /// </summary>
-        /// <param name="value">The value uniquely identifies the node.</param>
-        /// <param name="children">The children of the node.</param>
-        public Node(T value, ISet<Node<T>> children)
-            : this(value)
-        {
-            this.Children = children;
-        }
-
-        /// <summary>
         /// Gets node's value that uniquely identifies it.
         /// </summary>
         public T Value { get; set; }

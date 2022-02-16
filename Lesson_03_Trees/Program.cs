@@ -7,11 +7,13 @@ namespace Lesson_03_Trees
     {
         private static void Main(string[] args)
         {
-            // TreeTraversalExercise.Run();
+            // TreeDemo.Demo.Run();
+
+            TreeTraversalExercise.Run();
 
             // DirectoryTraversal.DirectoryTraversal.Run();
 
-            FileSystem.Run();
+            // FileSystem.Run();
         }
     }
 }
