@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Utility
 {
@@ -28,6 +29,31 @@ namespace Utility
             }
 
             return numbers;
+        }
+
+        public static string GetFileTextContent(string fullPath)
+        {
+            if (!File.Exists(fullPath))
+            {
+                throw new FileNotFoundException("File does not exist. File name: " + fullPath);
+            }
+
+            string textContent = string.Empty;
+
+            using (var reader = new StreamReader(fullPath))
+            {
+                textContent = reader.ReadToEnd();
+            }
+
+            return textContent;
+        }
+
+        public static void PrintDictionaryElements<T>(IDictionary<T, int> dict)
+        {
+            foreach (var element in dict)
+            {
+                Console.WriteLine("{0} -> {1} time(s).", element.Key, element.Value);
+            }
         }
     }
 }
