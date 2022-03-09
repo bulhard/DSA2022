@@ -1,5 +1,8 @@
 ﻿using Lesson_06_Data_Structures_Efficiency.StudentBook;
 using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Lesson_06_Data_Structures_Efficiency
 {
@@ -7,7 +10,8 @@ namespace Lesson_06_Data_Structures_Efficiency
     {
         private static void Main(string[] args)
         {
-            StudentBookTest.Run();
+            StudentBookTest studentBookTest = new StudentBookTest();
+            studentBookTest.Run();
         }
     }
 }

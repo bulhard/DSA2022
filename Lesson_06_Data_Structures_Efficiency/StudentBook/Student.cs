@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Lesson_06_Data_Structures_Efficiency.StudentBook
 {
@@ -28,7 +29,7 @@ namespace Lesson_06_Data_Structures_Efficiency.StudentBook
 
         public override string ToString()
         {
-            return string.Format($"{FirstName} {LastName}");
+            return $"{FirstName} {LastName}";
         }
     }
 }
