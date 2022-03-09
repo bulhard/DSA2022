@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_03_Trees", "Lesson_0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_04_Collections", "Lesson_04_Collections\Lesson_04_Collections.csproj", "{26A17061-F62C-4459-80C9-B3BCDC6A0B16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_05_Advanced_Data_Structures", "Lesson_05_Advanced_Data_Structures\Lesson_05_Advanced_Data_Structures.csproj", "{1614CE6C-5016-4959-AD09-C10EA56963A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_05_Advanced_Data_Structures", "Lesson_05_Advanced_Data_Structures\Lesson_05_Advanced_Data_Structures.csproj", "{1614CE6C-5016-4959-AD09-C10EA56963A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_06_Data_Structures_Efficiency", "Lesson_06_Data_Structures_Efficiency\Lesson_06_Data_Structures_Efficiency.csproj", "{2714AB20-E151-4725-9E30-7A1EFC87C9B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{1614CE6C-5016-4959-AD09-C10EA56963A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1614CE6C-5016-4959-AD09-C10EA56963A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1614CE6C-5016-4959-AD09-C10EA56963A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2714AB20-E151-4725-9E30-7A1EFC87C9B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2714AB20-E151-4725-9E30-7A1EFC87C9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2714AB20-E151-4725-9E30-7A1EFC87C9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2714AB20-E151-4725-9E30-7A1EFC87C9B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
