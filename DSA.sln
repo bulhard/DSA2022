@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_06_Data_Structures_E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_07_Sort_Search", "Lesson_07_Sort_Search\Lesson_07_Sort_Search.csproj", "{57FE4FCA-FAC2-4A3C-BD21-C5B0AB999A88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_08_Recursion", "Lesson_08_Recursion\Lesson_08_Recursion.csproj", "{AAA94878-FEA6-46FD-8083-68C48A69E7C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson_08_Recursion", "Lesson_08_Recursion\Lesson_08_Recursion.csproj", "{AAA94878-FEA6-46FD-8083-68C48A69E7C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson_09_Combinatorics", "Lesson_09_Combinatorics\Lesson_09_Combinatorics.csproj", "{21742F4F-9780-463A-833C-E10C4AF5B0A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{AAA94878-FEA6-46FD-8083-68C48A69E7C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAA94878-FEA6-46FD-8083-68C48A69E7C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAA94878-FEA6-46FD-8083-68C48A69E7C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21742F4F-9780-463A-833C-E10C4AF5B0A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21742F4F-9780-463A-833C-E10C4AF5B0A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21742F4F-9780-463A-833C-E10C4AF5B0A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21742F4F-9780-463A-833C-E10C4AF5B0A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
